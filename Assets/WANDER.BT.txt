@@ -1,0 +1,4 @@
+tree("Root")	// arvore de comportamento
+   sequence // sequencia 
+    PickRandomDestination //metodo de destino randomico
+    MoveToDestination // metodo destino
