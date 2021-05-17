@@ -605,7 +605,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.47450984, g: 0.47450984, b: 0.47450984, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1000,8 +1000,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 3.5, y: 0}
-  m_SizeDelta: {x: 5.76, y: 0}
+  m_AnchoredPosition: {x: 3.66, y: 0}
+  m_SizeDelta: {x: 7.324581, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1054562230
 MonoBehaviour:
@@ -1244,7 +1244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scripts:
-  - {fileID: 4900000, guid: 3eddd8eb814dacf4eb1b4243a07cb863, type: 3}
+  - {fileID: 4900000, guid: 3eb060fe9c418b540a6199aee7240261, type: 3}
   autoReset: 1
   tickOn: 0
   sourceInfos:
