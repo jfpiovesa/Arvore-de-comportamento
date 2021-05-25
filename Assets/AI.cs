@@ -104,7 +104,7 @@ public class AI : MonoBehaviour
     {
         Vector3 distance = player.transform.position - this.transform.position; // calculando a distacia ate o player 
         RaycastHit hit;// hit para colisão
-        bool seeWall = false; 
+        bool seeWall = false;
         Debug.DrawRay(this.transform.position, distance, Color.red);
         if (Physics.Raycast(this.transform.position, distance, out hit))// para ver se  esta colidindo com a  parede  
         {
@@ -120,12 +120,13 @@ public class AI : MonoBehaviour
 
         else return false;
     }
-    [Task] 
+    [Task]
     bool Turn(float angle) //rotação do objeto 
     {
-        var p = this.transform.position + Quaternion.AngleAxis(angle, Vector3.up) * this.transform.forward; 
+        var p = this.transform.position + Quaternion.AngleAxis(angle, Vector3.up) * this.transform.forward;
         target = p;
         return true;
     }
 }
+    
 
